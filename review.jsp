@@ -77,9 +77,9 @@ padding: 0px 10px 0px 10px;
 </head>
 <body>
 <div align="center">
-<p>&nbsp;</p>
-<p><img src="review_img/title.png" width="600px"></p>
-<p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p><img src="review_img/title.png"></p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <table>
 <tr>
 <td class="star"><img src="review_img/star.png" width="100%"></td>
@@ -198,9 +198,9 @@ padding: 0px 10px 0px 10px;
 <p>&nbsp;</p></td>
 </tr>
 </table>
-<p><img src="review_img/page.png" width="150px"></p>
+<p><a href="review.jsp"><img src="review_img/page.png" width="150px"></a></p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <p class="back"><a href="submain.jsp">B A C K</a></p>
-<p>&nbsp;</p>
 </div>
 </body>
 </html>
