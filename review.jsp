@@ -20,7 +20,7 @@ body {
 background-image: url("background.png");
 background-size: 100%;
 }
-.back {
+a.back {
 font-family: 'HBIOS-SYS';
 font-size: 60px;
 text-decoration-line:none;
@@ -200,7 +200,7 @@ padding: 0px 10px 0px 10px;
 </table>
 <p><a href="review.jsp"><img src="review_img/page.png" width="150px"></a></p>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<p class="back"><a href="submain.jsp">B A C K</a></p>
+<p><a class="back" href="submain.jsp">B A C K</a></p>
 </div>
 </body>
 </html>
