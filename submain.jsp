@@ -18,11 +18,6 @@ body {
 background-image: url("background.png");
 background-size: 100%;
 }
-.title {
-font-family: 'DungGeunMo';
-font-size: 50px;
-color: white;
-}
 td {
 text-align: center;
 height: 200px;
@@ -36,10 +31,7 @@ td.eku2 {
 vertical-align: bottom;
 width:200px;
 }
-img {
-border: 1px solid black;
-}
-.back {
+a.back {
 font-family: 'HBIOS-SYS';
 font-size: 60px;
 text-decoration-line:none;
@@ -54,19 +46,42 @@ trasition: all 0.2s linear;
 .big:hover img {
 transform: scale(1.2);
 }
+.jb-text {
+font-family: 'HBIOS-SYS';
+padding: 10px 15px;
+background-color: black;
+border-radius: 5px;
+color: white;
+position: absolute;
+display: none;
+margin-left: 150px;
+line-height: 20px;
+}
+.jb-title:hover + .jb-text {
+display: block;
+}
 </style>
 </head>
 <body>
 <div align="center">
-<p class="title">영혼 상담소 공식HP</p>
+<p>&nbsp;</p>
+<p><img src="submain_img/title.png" alt="title"></p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <table>
 <tr>
 <td rowspan="5" class="eku1">
 <img src="submain_img/ekubo1.gif" alt="ekubo1" width="100%">
 </td>
 <td>
-<span class="big"><img src="submain_img/introduce.png" alt="introduce" height="100%"></span>
-<span class="big"><img src="submain_img/reigen.png" alt="reigen" height="100%"></span>
+<span class="jb-title"><img src="submain_img/introduce.png" alt="introduce" height="100%"></span>
+<span class="jb-text">
+<font color="red">&#60;개발한 사람들&#62;</font><br>
+<font color="salmon">동덕여자대학교 학생들</font><br>
+<font color="yellow">디자인: 20211186 강현우,</font><br>
+<font color="chartreuse">20221109 김지윤</font><br>
+<font color="aqua">개발: 20210794 김서진,</font><br>
+<font color="violet">20210806 이진희</font></span>
+<span><img src="submain_img/reigen.png" alt="reigen" height="100%"></span>
 </td>
 <td rowspan="5" class="eku2">
 <img src="submain_img/ekubo2.gif" alt="ekubo2" width="100%">
@@ -85,19 +100,19 @@ transform: scale(1.2);
 </td>
 </tr>
 <tr>
-<td><span class="big">
-<img src="submain_img/road.png" alt="road" width="100%"></span></td>
+<td><span class="big"><a href="road.jsp">
+<img src="submain_img/road.png" alt="road" width="100%"></a></span></td>
 </tr>
 <tr>
-<td height="200px"><span class="big">
-<img src="submain_img/arrow.gif" alt="arrow" height="100%">
-</span></td>
+<td height="200px">
+<img src="submain_img/arrow.gif" alt="arrow" height="100%"></td>
 </tr>
 <tr>
 <td colspan="3" width="1200px"><img src="submain_img/cost.gif" alt="cost" width="1000px"></td>
 </tr>
 </table>
-<p class="back"><a href="main.jsp">B A C K</a></p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p><a class="back" href="main.jsp">B A C K</a></p>
 </div>
 </body>
 </html>
